@@ -1,0 +1,18 @@
+
+
+Steps to be followed
+********************
+0. Unzip the php folder
+1. Install docker (docker desktop in Windows)
+2. Copy the php folder to a convenient location
+3. Take terminal (power shell) and change directory to php folder
+4. Give the command "docker compose up -d"
+(First run takes some time, to pull the image from docker repository)
+5. Take the browser and give "http://127.0.0.1:8080/get/singlefile.php"
+Also explore http://127.0.0.1:8080/get/twofile-part1.php" and http://127.0.0.1:8080/get/calc.php"
+6. Now try files in post folder and understand the difference in source code and in URL from GET
+
+
+Possible Issues:
+1. Virtualization not supported - Check BIOS in advanced settings
+2. WSL (Windows subsystem for Linux) is not updated -  Give the command "wsl --update" in the powershell.
